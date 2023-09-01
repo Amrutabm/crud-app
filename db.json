@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "name": "sam",
+      "mobileno": "7878787878",
+      "email": "sam@gmail.com",
+      "password": "sam@123",
+      "id": 1
+    },
+    {
+      "name": "sam",
+      "mobileno": "7878787878",
+      "email": "sam@gmail.com",
+      "password": "sam@123",
+      "id": 2
+    },
+    {
+      "name": "john",
+      "mobileno": "6767676767",
+      "email": "john@gmail.com",
+      "password": "john@123",
+      "id": 3
+    },
+    {
+      "name": "Amruta",
+      "mobileno": "7887878870",
+      "email": "amruta@123",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mouse",
+      "price": "600",
+      "category": "Electronics",
+      "stock": "30"
+    },
+    {
+      "name": "SmartPhone",
+      "price": "10000",
+      "category": "Electronics",
+      "stock": "100",
+      "id": 2
+    },
+    {
+      "name": "Laptop",
+      "price": "35000",
+      "category": "Electronics",
+      "stock": "10",
+      "id": 3
+    },
+    {
+      "name": "TV",
+      "price": "20000",
+      "category": "Electronics",
+      "stock": "15",
+      "id": 4
+    },
+    {
+      "name": "mobile",
+      "price": "10000",
+      "category": "Electronics",
+      "stock": "12",
+      "id": 5
+    },
+    {
+      "id": 7,
+      "name": "Fiction",
+      "price": "400",
+      "category": "Books",
+      "stock": "25"
+    },
+    {
+      "id": 8,
+      "name": "smartwatch",
+      "price": "3000",
+      "category": "Electronics",
+      "stock": "50"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<div class="container w-50 mt-5 border shadow p-5">
+    
+    <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+        <h3>Sign-Up</h3>
+        <div class="mb-3">
+            <label for="id1" class="form-label">Name</label>
+            <input type="email" class="form-control" id="id1" aria-describedby="emailHelp" formControlName="name">
+        </div>
+        <div class="mb-3">
+            <label for="id2" class="form-label">Mobile Number</label>
+            <input type="text" class="form-control" id="id2" aria-describedby="emailHelp"  formControlName="mobileno">
+        </div>
+        <div class="mb-3">
+            <label for="id3" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="id3" aria-describedby="emailHelp"  formControlName="email">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"  formControlName="password">
+        </div>
+        <!-- <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+          <button class="btn btn-primary" type="button" routerLink="/login">Login</button>
+            
+          </div>
+  
+
+    </form>
+</div>
