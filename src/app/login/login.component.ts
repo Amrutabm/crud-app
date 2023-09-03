@@ -18,6 +18,7 @@ export class LoginComponent {
   }
 
   ngOnInit(){
+    console.log("ngOnInit");
     this.createForm();
 
   }
